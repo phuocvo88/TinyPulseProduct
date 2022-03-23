@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-03-22T16:49:26Z" name="TINYPULSE" finished-at="2022-03-22T16:50:00Z" duration-ms="34714">
+    <groups>
+    </groups>
+    <test started-at="2022-03-22T16:49:26Z" name="SmokeTest" finished-at="2022-03-22T16:50:00Z" duration-ms="34714">
+      <class name="tinyPulse.user.Settings.AddPeoplePageTest">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:tinyPulse.user.Settings.AddPeoplePageTest@1184ab05]" started-at="2022-03-22T16:49:26Z" name="beforeClass" finished-at="2022-03-22T16:49:43Z" duration-ms="17671" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://staging.tinyserver.info/auth]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="AddPeople_01_AddPeopleSuccessful()[pri:0, instance:tinyPulse.user.Settings.AddPeoplePageTest@1184ab05]" started-at="2022-03-22T16:49:43Z" name="AddPeople_01_AddPeopleSuccessful" finished-at="2022-03-22T16:49:47Z" duration-ms="3497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddPeople_01_AddPeopleSuccessful -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tinyPulse.user.Settings.AddPeoplePageTest@1184ab05]" started-at="2022-03-22T16:49:47Z" name="afterClass" finished-at="2022-03-22T16:49:48Z" duration-ms="667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tinyPulse.user.Settings.AddPeoplePageTest -->
+      <class name="tinyPulse.user.LoginPageTest">
+        <test-method is-config="true" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:tinyPulse.user.LoginPageTest@3aefe5e5]" started-at="2022-03-22T16:49:48Z" name="beforeClass" finished-at="2022-03-22T16:49:53Z" duration-ms="5128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://staging.tinyserver.info/auth]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="Login_01_UserLogInSuccessful()[pri:0, instance:tinyPulse.user.LoginPageTest@3aefe5e5]" started-at="2022-03-22T16:49:53Z" name="Login_01_UserLogInSuccessful" finished-at="2022-03-22T16:50:00Z" duration-ms="7112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login_01_UserLogInSuccessful -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:tinyPulse.user.LoginPageTest@3aefe5e5]" started-at="2022-03-22T16:50:00Z" name="afterClass" finished-at="2022-03-22T16:50:00Z" duration-ms="626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tinyPulse.user.LoginPageTest -->
+    </test> <!-- SmokeTest -->
+  </suite> <!-- TINYPULSE -->
+</testng-results>

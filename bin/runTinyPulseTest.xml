@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- <suite name="TinyPulse">  -->
+<suite name="TINYPULSE">
+
+	<parameter name="url" value="https://staging.tinyserver.info/auth" />  
+	
+	<test name="SmokeTest">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="tinyPulse.user.Settings.AddPeoplePageTest" />
+			<class name="tinyPulse.user.LoginPageTest" />
+		</classes>
+	</test>
+
+</suite> 

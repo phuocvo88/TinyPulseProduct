@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TINYPULSE]">
+  <parameter name="url" value="https://staging.tinyserver.info/auth"/>
+  <test thread-count="5" name="SmokeTest(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="tinyPulse.user.Settings.AddPeoplePageTest">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="AddPeople_01_AddPeopleSuccessful"/>
+        </methods>
+      </class> <!-- tinyPulse.user.Settings.AddPeoplePageTest -->
+    </classes>
+  </test> <!-- SmokeTest(failed) -->
+</suite> <!-- Failed suite [TINYPULSE] -->
