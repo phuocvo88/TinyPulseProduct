@@ -1,4 +1,9 @@
 Instruction to run from commandline
+********************************************************************
+Prerequisite: your machine should be installed java ahead. If not, please download and install jdk 11 on your machine: https://www.oracle.com/br/java/technologies/javase/jdk11-archive-downloads.html
+from cmd, check if java is stalled yet by using command: java -version
+********************************************************************
+
 Step 1: From command line, Navigate to directory of your project
 
 
